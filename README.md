@@ -21,3 +21,17 @@ yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
 yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader @babel/plugin-proposal-class-properties
 ```
+
+## Video 2
+
+4. Плагины для продакшина
+
+```
+yarn add -D uglifyjs-webpack-plugin compression-webpack-plugin  clean-webpack-plugin
+```
+
+5. Стили
+
+```
+yarn add -D style-loader css-loader sass-loader node-sass
+```

@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<div>hello!</div>, document.querySelector('#root'));
+import './style.scss';
+
+ReactDOM.render(<div>hello</div>, document.querySelector('#root'));
