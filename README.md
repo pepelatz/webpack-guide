@@ -24,7 +24,7 @@ yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader @babe
 
 ## Video 2
 
-4. Плагины для продакшина
+4. Плагины для продакшна
 
 ```
 yarn add -D uglifyjs-webpack-plugin compression-webpack-plugin  clean-webpack-plugin
@@ -42,4 +42,12 @@ yarn add -D style-loader css-loader sass-loader node-sass
 
 ```
 yarn add redux react-redux redux-thunk react-router-dom react-router-config
+```
+
+## Video 3
+
+api: https://jsonplaceholder.typicode.com/todos
+
+```
+yarn add axios @babel/polyfill
 ```
