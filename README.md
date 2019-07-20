@@ -35,3 +35,11 @@ yarn add -D uglifyjs-webpack-plugin compression-webpack-plugin  clean-webpack-pl
 ```
 yarn add -D style-loader css-loader sass-loader node-sass
 ```
+
+## Video 3
+
+6. Роутер и ридакс
+
+```
+yarn add redux react-redux redux-thunk react-router-dom react-router-config
+```
