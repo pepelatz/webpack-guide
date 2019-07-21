@@ -44,10 +44,17 @@ yarn add -D style-loader css-loader sass-loader node-sass
 yarn add redux react-redux redux-thunk react-router-dom react-router-config
 ```
 
-## Video 3
+## Video 4
 
 api: https://jsonplaceholder.typicode.com/todos
 
 ```
 yarn add axios @babel/polyfill
+```
+
+## Video 5
+
+```
+yarn add express
+yarn add -D null-loader mini-css-extract-plugin
 ```

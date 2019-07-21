@@ -26,7 +26,9 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = { setHello };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(About);
+export default {
+  component: connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(About)
+};
