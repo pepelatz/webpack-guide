@@ -2,6 +2,8 @@
 
 Практический гайд по вебпаку: От SPA до SSR
 
+[Ссылка на плейлист](https://www.youtube.com/watch?v=BZGsl_zNTYw&list=PL_RVw8KXnKnNM1mVt01rxaoCncEtvylbi)
+
 ## Video 1
 
 1. Настраиваем Eslint
