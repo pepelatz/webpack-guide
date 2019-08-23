@@ -8,7 +8,7 @@ import { fetchTodos } from '../store/actions';
 const Todo = ({ fetchTodos, todos }) => {
   useEffect(() => {
     fetchTodos();
-  });
+  }, []);
 
   return (
     <div>
