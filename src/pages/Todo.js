@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
-import { fetchTodos } from '../store/actions';
+import { fetchTodos } from "../store/actions";
 
 // eslint-disable-next-line no-shadow
 const Todo = ({ fetchTodos, todos }) => {
   useEffect(() => {
     fetchTodos();
-  });
+  }, []);
 
   return (
     <div>
@@ -19,7 +19,7 @@ const Todo = ({ fetchTodos, todos }) => {
         Get Todos
       </button> */}
       <br />
-      {todos.map(todo => (
+      {todos.map((todo) => (
         <p key={todo.id}>
           {todo.id} {todo.title}
         </p>
@@ -28,13 +28,10 @@ const Todo = ({ fetchTodos, todos }) => {
   );
 };
 
-const mapStateToProps = state => ({
-  todos: state.todos
+const mapStateToProps = (state) => ({
+  todos: state.todos,
 });
 
 const mapDispatchToProps = { fetchTodos };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Todo);
+export default connect(mapStateToProps, mapDispatchToProps)(Todo);
